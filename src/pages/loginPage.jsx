@@ -14,13 +14,14 @@ const FormPage = () => {
 
     const handleSubmit = async (e) => {
         try {
+            e.preventDefualt()
             setLoading(true)
 
             const response = await axios.post("http://localhost:3000/api/login", form)
             console.log(response.data)
-            alert("Login successfully!")
+           
             if (response.status == 200) {
-
+                alert("Login successfully!")
                 navigate("/dashboard")
             }
 

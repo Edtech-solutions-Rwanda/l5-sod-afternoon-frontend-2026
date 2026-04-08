@@ -1,18 +1,11 @@
 import React from 'react'
 import { FaBookJournalWhills } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div>
-        <header className=' flex
-         justify-between  px-8  py-4  ' >
-    <h1 className=' font-bold text-3xl  text-blue-700 '> GROUP  X</h1>
-    <div className=' flex gap-8 '>
-        <button className=' bg-blue-700  text-white px-4  py-2   rounded-md   text-md '>Home</button>
-        <button className=' rounded-md  px-4  py-2  hover:bg-gray-300 '>Register</button>
-        <button className=' rounded-md  px-4  py-2  hover:bg-gray-300 '>Students </button>
-    </div>
-        </header>
+   
 
         <div className=' relative overflow-hidden   border-2  border-red-500  min-h-[90vh]  flex 
         flex-col  justify-center  items-center   text-white gap-8       '>

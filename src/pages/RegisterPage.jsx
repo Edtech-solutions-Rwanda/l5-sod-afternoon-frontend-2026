@@ -11,10 +11,10 @@ const FormPage = () => {
   }
   const navigate = useNavigate()
   const handleSubmit = async (e) => {
-    
+
 
     try {
-      
+
       setLoading(true)
 
       const response = await axios.post("http://localhost:3000/api/register", form)

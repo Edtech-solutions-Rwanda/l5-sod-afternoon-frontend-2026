@@ -46,9 +46,9 @@ const FormPage = () => {
 
             <div>
               <label htmlFor="name" className='block text-sm font-medium text-gray-600 mb-1'>Email</label>
-              <input type="text" name="email" id="" onChange={handleChange} value={form.email} placeholder='Enter email' className='
+              <input type="text" name="email" id="" onChange={handleChange} value={form.email} placeholder='Enter email' className='iuytres
             w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-blue-900 transition' />
-            </div>
+            </div>iuytres
 
             <div>
               <label htmlFor="name" className='block text-sm font-medium text-gray-600 mb-1'>Password</label>
